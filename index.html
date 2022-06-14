@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="selectors.css">
+    <script src="pixi.min.js"></script>
+    <style>
+        * {
+        padding: 0;
+        margin: 0
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', sans-serif;                              /* тема шрифта - определенный, семейство*/
+        }        
+    </style>
+</head>
+<script src="js/pixi.min.js"></script>
+<body>
+    <script type="text/javascript">
+        let type = "WebGL"
+        if (!PIXI.utils.isWebGLSupported()) {
+            type = "canvas"
+        }
+    
+        PIXI.utils.sayHello(type)
+    </script> 
+
+
+
+
+
+
+
+
+
+    <!-- <div id="view">TEXT</div> -->
+    <!-- <div class="plane2d" id="bloo"> pixi js </div>     -->
+    <div id="blootwo"></div>
+    <!-- <canvas width="400" height="300" style="touch-action: none; cursor: inherit;"></canvas> // создалась метка -->
+    <script src="pixi.min.js"></script>
+    <!-- <script src="text.js"></script> -->
+    <!-- <script src="particle.js"></script> -->
+    <!-- <script src="visual.js"></script> -->
+    <script type="module" src="app.js"></script>
+    
+    
+    <!-- <script src="main.ts"></script> -->
+    <!-- <script src="@pixi/graphics-extras"></script>     -->
+</body>
+</html>
